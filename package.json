@@ -1,8 +1,8 @@
 {
   "name": "snakecanvas",
   "scripts": {
-    "build": "webpack",
-    "dev": "webpack"
+    "build": "webpack --config prod.config.js",
+    "dev": "webpack --config dev.config.js"
   },
   "version": "0.0.1",
   "description": "A simple Snake made with canvas",
